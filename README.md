@@ -22,10 +22,10 @@
     
   #### to run the application directly please do the following: 
    - after cloning the repo:
-      - cd go-helm-chart 
-      - helm install go-kube . 
+      - ```cd go-helm-chart```
+      - ```helm install go-kube .``` 
       - the application runs on port 31008 and you can change it from values.yaml 
-      - curl clusterip:31008 you should able to see Hello World
+      - ```curl clusterip:31008``` you should able to see Hello World
       
     
 ###### Building docker Image
