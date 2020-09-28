@@ -59,7 +59,10 @@
     - this will deploy the application and a service to expose the app.
   - the application runs on port 31008 and you can change it from values.yaml 
   - ```curl clusterip:31008``` you should able to see Hello World
-    
+  
+### helm package is available at 
+  - ``` helm repo add helmcharts  https://aboubakrkh.github.io/go-kubernates/ ```
+  - ``` helm repo update```
     
     
     
