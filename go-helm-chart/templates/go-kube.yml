@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: go-kuber
+spec:
+    template:
+        metadata:
+            labels:
+                app: go-kuber
+        spec:
+          containers:
+          - name: go-kuber
+            image: {{ .Values.dockerImageName }}
+            ports:
+              - containerPort: 8080
+    replicas: {{ .Values.replicaCount }}
+    selector:
+      matchLabels:
+        app: go-kuber

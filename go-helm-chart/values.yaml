@@ -1,0 +1,3 @@
+replicaCount: 2
+nodePortGoKuber: 31008
+dockerImageName: aboubakr/go-kube:latest
