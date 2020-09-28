@@ -1,6 +1,6 @@
 # Deploy Go Application on Kubernates Cluster 
 
-#### Repo architecture is as following: 
+#### the Repo architecture is as following: 
 
 ├── docker
 
@@ -43,7 +43,7 @@
     - ``docker push aboubakr/go-kube:latest``
 ### to deploy this application on kubernates
   - after pushing docker image to your dockerhub or you private repo 
-  - ```cd .. ```
+  - ```cd go-helm-chart```
   - change replace the image name with the image that you created 
   - inside go-helm-chart run :
     - ``` helm install go-kube . ``` 
