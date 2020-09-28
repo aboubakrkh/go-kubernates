@@ -7,7 +7,7 @@
  5. kubernates service file 
 
 #### clone this repo :
-    ```git clone https://github.com/aboubakrkh/go-kubernates.git```
+   -  ```git clone https://github.com/aboubakrkh/go-kubernates.git```
 
 #### the Repo architecture is as following: 
 
